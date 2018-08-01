@@ -5,6 +5,8 @@
  */
 package jobsheet7;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ASUS
@@ -17,7 +19,31 @@ public class Jobsheet7 {
     public static void main(String[] args) {
         String identitas ="nama lengkap / kelas /no";
         System.out.println("Identitas : " +identitas);
+         Scanner scanner =new Scanner(System.in);
+         System.out.print("Nilai a ?");
+         int a = scanner.nextInt();
+         
+         System.out.println("\nIF.. `1");
+         if(a < 5) System.out.println("nilai a kurang dari 5");
+         
+         
+         System.out.println("\nIf.. 2");
+         if(a == 5) System.out.println("nilai a sama dengan 5");
+         
+         System.out.println("nIF.. 3");
+         if (a > 5){
+             
+         System.out.println("isi variabel a: "+a);
+             System.out.println("nilai a lebih besar dari 5");
+         }
+         
+         System.out.println("nIF..ELSE..");
+         if (a < 5){
+             System.out.println("isi variabel a: "+a);
+             System.out.println("nilai kurang dari 5");
+           
+         }else System.out.println("nilai a lebih dari atau sama dengan 5");
+         
         
             }
-    
 }
