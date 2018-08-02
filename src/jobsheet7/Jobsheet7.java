@@ -44,6 +44,14 @@ public class Jobsheet7 {
            
          }else System.out.println("nilai a lebih dari atau sama dengan 5");
          
-        
-            }
+        System.out.println("\nIF...ELSE IF..ELSE.. 1");
+        if (a < 5){
+            System.out.println("nilai a kurang dari 5");
+             }else if(a == 5){
+                 System.out.println("nilai a sama dengan 5");
+             }else 
+                 System.out.print("nilai a lebih besar sama dengan 5");
+        System.out.println("\nIF..ELSE IF..ELSE.. 1");
+        if (a < 5);
+    }
 }
