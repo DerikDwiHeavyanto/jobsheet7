@@ -11,13 +11,13 @@ import java.util.Scanner;
  *
  * @author ASUS
  */
-public class Jobsheet7 {
+public class CobaPercabangan {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String identitas ="nama lengkap / kelas /no";
+        String identitas ="Derik Dwi Heavyanto / XRPL5 /12";
         System.out.println("Identitas : " +identitas);
          Scanner scanner =new Scanner(System.in);
          System.out.print("Nilai a ?");
