@@ -13,8 +13,8 @@ import java.util.Scanner;
  */
 public class SaranBahan2Resep {
     public static void main (String[] args){
-        String DerikDwiHeavyantoXRPL512 = " nama lengkap / kelas / no";
-        System.out.println("identitas : " + DerikDwiHeavyantoXRPL512 );
+        String nama = " Derik Dwi Heavyanto / XRPL5 / 12";
+        System.out.println("identitas : " +nama );
         
         System.out.print("\nSaran Resep dari Bahan MIlik Anda\n");
         
@@ -25,6 +25,23 @@ public class SaranBahan2Resep {
         System.out.println("2. Telur");
         System.out.println("Masukan no pillihan Anda :");
         int bahan1 =scan.nextInt();
+        
+        if (bahan1 == 1){
+            System.out.println("Bahan Kedua: ");
+            if(bahan1 == 1){
+                System.out.println("1. Susu");
+                System.out.println("2. Minyak Goreng");
+                System.out.println("3. Tidak ada");
+            }else{
+                System.out.println("1. Minyak Goreng");
+                System.out.println("2. Roti");
+                System.out.println("3. Tidak ada");
+            }
+            System.out.print("Masukan no pilihan Anda :");
+            int bahan2 = scan.nextInt();
+        }else
+            System.out.println("Mohon Maaf, Pilihan tidak ditemukan, "
+            + "tidak dapat memberikan saran resep");
         
         
     }
