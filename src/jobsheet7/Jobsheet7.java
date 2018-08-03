@@ -95,5 +95,7 @@ public class Jobsheet7 {
         
         String grade = (nilai < 75) ? "belum kompeten" : "kompeten";
         System.out.println(nilai + " =>"+ grade);
+        
+        
     }
 }
