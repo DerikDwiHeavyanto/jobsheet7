@@ -50,8 +50,27 @@ public class Jobsheet7 {
              }else if(a == 5){
                  System.out.println("nilai a sama dengan 5");
              }else 
-                 System.out.print("nilai a lebih besar sama dengan 5");
-        System.out.println("\nIF..ELSE IF..ELSE.. 1");
-        if (a < 5);
+                 System.out.print("nilai  System.out.println(\"\\nIF..ELSE IF..ELSE.. 1\");\n" +
+"        if (a < 5){a lebih besar sama dengan 5");
+        System.out.println("\nIF..ELSE IF..ELSE.. 2");
+        if (a < 5){
+        System.out.println("nilai a kurang dari 5");
+        } else if (a == 5 ){
+            System.out.println("nulai a sama dengan 5");
+        }else
+            System.out.println("nilai a lebih dari 5");
+        System.out.println("\nIF..ELSE IF..ELSE..2");
+        if(a<2){
+            System.out.println("nilai a kurang dari dari 2");
+        }else if (a<4){
+            System.out.println("nilai a kurang dari 4");
+        }else if(a < 6 ){
+            System.out.println("nilai a kurang dari 6");
+        }else if (a == 6){
+            System.out.println("nilai a sama dengan 6");
+        }else {
+            System.out.println("nilai alebih dari 6");
+        }
+        
     }
 }
