@@ -75,7 +75,7 @@ public class Jobsheet7 {
         if(a<7){
             System.out.println("nilai a kurang dari 7");
             if(a>2);
-            System.out.println("nj=ilai a lebih dari 2");
+            System.out.println("nilai a lebih dari 2");
             if(a<4);
             System.out.println("nilai a kurang dari 4");
         }
@@ -89,5 +89,11 @@ public class Jobsheet7 {
             default: System.out.println("nilai a bukan antara 1 - 5");
                     
         }
+        int nilai;
+        System.out.println("nNilai Anda ? ");
+        nilai = scanner.nextInt();
+        
+        String grade = (nilai < 75) ? "belum kompeten" : "kompeten";
+        System.out.println(nilai + " =>"+ grade);
     }
 }
